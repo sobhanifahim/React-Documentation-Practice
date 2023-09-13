@@ -5,6 +5,7 @@ import Indcase from './components/propsinhandler'
 import HandlerasProps from './components/handlerAsProps'
 import StopProp from './components/stoppingPropagation'
 import PrevDef from './components/preventdefault'
+import Gallery from './StateVariable/gallery';
 function App() {
   return (
     <div className="App">
@@ -12,8 +13,9 @@ function App() {
       <Indcase/><br/>
       <HandlerasProps/><br/>
       <StopProp/><br/>
-      <PrevDef/>
-
+      <PrevDef/> <br/>
+      <Gallery/>
+      
     </div>
   );
 }
