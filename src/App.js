@@ -16,6 +16,8 @@ import DelElem from './StateVariable/removingArrayElem'
 import TransForm from './StateVariable/TransformArray'
 import Replace from './StateVariable/replaceArrItem'
 import Insert  from './StateVariable/insertArrElem';
+import Rev from './StateVariable/reverseArr'
+
 function App() {
   return (
     <div className="App">
@@ -35,6 +37,8 @@ function App() {
       <TransForm/>
       <Replace/>
       <Insert/>
+      <Rev/>
+     
     </div>
   );
 }
